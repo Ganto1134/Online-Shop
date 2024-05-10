@@ -31,6 +31,7 @@ const getEventData = function () {
                             <p class="card-text">${e.price} $</p>
                             <div class="row mx-2 d-flex justify-content-center">
                                 <a href="./backoffice.html?eventID=${e._id}" class="btn btn-info col-8">Change</a>
+                                <a href="#" class="btn btn-success col-8 mt-2">Buy</a>
                             </div>
                         </div>
                     </div>
