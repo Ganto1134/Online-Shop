@@ -1,0 +1,35 @@
+.nav-item a:hover {
+  color: #e50914;
+  background-color: blueviolet;
+  border-radius: 30px;
+}
+
+.card {
+  transition: transform 300ms ease;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.row span i {
+  font-size: 40px;
+  color: #e50914;
+  padding: 0 0.5rem;
+}
+
+.row span i:hover {
+  background-color: blueviolet;
+}
+
+.col p a {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.col p a:hover {
+  color: #e50914;
+}
+
+.rounded {
+  width: 16rem;
+}
